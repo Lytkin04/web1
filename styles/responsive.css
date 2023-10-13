@@ -1,0 +1,43 @@
+@media screen and (min-width: 1280px) {
+    #wrapper {
+        width:1280px;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #wrapper {
+        max-width: 1024px;
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #wrapper {
+        max-width: 768px;
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #wrapper {
+        max-width: 100%;
+        /* padding: 0 16px; */
+        margin: auto 0;
+    }
+
+    .skill__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill__element {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .resume__header img {
+        display: none;
+    }
+}
